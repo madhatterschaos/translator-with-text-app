@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>467</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>467</width>
+     <height>578</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout" rowstretch="1,5,5,5,5,5">
+    <item row="1" column="1">
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="plainText">
+       <string>Открывается окно, в котором можно самому вписать слово и его перевод, программа запишет слово после нажатия кнопки &quot;Запомнить перевод&quot;. Работает только для английского языка</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPlainTextEdit" name="plainTextEdit_0">
+      <property name="plainText">
+       <string>Добавить перевод слова вручную</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPlainTextEdit" name="plainTextEdit_1">
+      <property name="plainText">
+       <string>Показывает количество новых слов, количество запрошенных переводов, количество запрошенных замен текста во время текущего использования приложения</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPlainTextEdit" name="plainTextEdit_2">
+      <property name="plainText">
+       <string>Выбрать другой язык перевода</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPlainTextEdit" name="plainTextEdit_3">
+      <property name="plainText">
+       <string>Открывается окно, в котором можно выбрать язык слова для перевода, ввести слово и, нажав на кнопку перевода, получить перевод с нужного языка на русский</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPlainTextEdit" name="plainTextEdit_4">
+      <property name="plainText">
+       <string>Перевести слово</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPlainTextEdit" name="plainTextEdit_5">
+      <property name="plainText">
+       <string>Если Вы ввели слово в соответствующее поле над кнопкой, то при нажатии кнопки в поле под ней появится перевод. Работает только для английского языка</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPlainTextEdit" name="plainTextEdit_7">
+      <property name="plainText">
+       <string>Выбрать текст</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QPlainTextEdit" name="plainTextEdit_8">
+      <property name="plainText">
+       <string>Загружает Ваш текст и открывает его в нижнем поле</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <widget class="QPlainTextEdit" name="plainTextEdit_6">
+      <property name="plainText">
+       <string>Слева - название кнопки, справа - пояснение к использованию</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPlainTextEdit" name="plainTextEdit_9">
+      <property name="plainText">
+       <string>Статистика</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

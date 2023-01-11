@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>685</width>
+    <height>321</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="1">
+     <widget class="QPushButton" name="Spanishbtn">
+      <property name="text">
+       <string>Испанский</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" rowspan="4">
+     <widget class="QPlainTextEdit" name="WordRu"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QPushButton" name="Englishbtn">
+      <property name="text">
+       <string>Английский</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2" rowspan="4">
+     <widget class="QPlainTextEdit" name="WordFor"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="Frenchbtn">
+      <property name="text">
+       <string>Французский</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="Germanbtn">
+      <property name="text">
+       <string>Немецкий</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLineEdit" name="SaysWhat1">
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>Слово для перевода</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="SaysWhat2">
+      <property name="text">
+       <string>Язык для перевода</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLineEdit" name="SaysWhat3">
+      <property name="text">
+       <string>Перевод слова на русский</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>685</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
